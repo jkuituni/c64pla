@@ -1,9 +1,7 @@
 # c64pla
-Custom Commodore 64 PLA implementation in VHDL
+Implementation of the SuperPLA in the c64 'c' version in VHDL done together with Frank Buss. Note, that this version does work only as the normal SuperPLA, not the one with integrated color SRAM.
 
-Based on a Commodore 64 'c' version PLA implementation with additional features being implemented for additional BASIC ROM, 
-CPU speed control and bus arbitration, RTC, IDE and rs232 chips in the I/O mirrors of the original decoding as well as support 
-for memory banking for additional CPU-only RAM area. This implementation will not work on a standard Commodore 64. Requires 
-extensive hardware modifications. 
+This is a fork from the Frank Buss' repository as that is where the original work was done. For additional information check out the webpage about this project :
 
-This is work-in-progress project
+https://frank-buss.de/c64/pla/index.html
+
